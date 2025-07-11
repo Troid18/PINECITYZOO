@@ -1,0 +1,174 @@
+/*=========================HEADER==================*/
+
+#header {
+     position: fixed;
+     top: 0px;
+     bottom:  0px;
+     left: 0px;
+     z-index: 500px;
+     width: 100%;
+     height: 80px;
+     background-image: url("images/wood-bg.png");
+     background-repeat:  repeat-x;
+}
+
+#header img{
+
+    margin: auto;
+    display: block;
+    height: 70%;
+    padding-top: 15px;
+}
+
+/*====================TOP-TAB==========*/
+
+#tabs-on-top{
+
+    position: fixed;
+    top: 80px;
+    z-index: 500;
+    width: 100%;
+    height: 40px;
+ 
+}
+
+#tabs-on-top a{
+
+    text-decoration: none;
+    float: left;
+    color: black;
+    display: block;
+    width: 33%;
+    height: 35px;
+    background-color: greenyellow;
+    text-align: center;
+    padding-top: 12px;
+}
+
+/*========MAIN-HOME===============*/
+
+#main-menu{
+
+    margin-top: 120px;
+}
+
+/*=======BOTTOM-TAB=======*/
+
+
+#tabs_bottom{
+
+    background-color: rgb(142, 228, 13);
+    z-index: 500;
+    top: 80px;
+    bottom: 100px;
+    width: 100%;
+    height: 40px;
+    padding-top: 10px;
+}
+
+#tabs_bottom a{
+
+
+    float: left;
+    display: block;
+    width: 50%;  
+    height: 35%;
+    text-align: center;
+    text-decoration: none;
+    padding-top: none;
+    color: black;
+    background-color:none;
+    
+ }
+
+ 
+
+
+/*****MAIN MAP*********/
+#main {
+    
+    margin-top: 119px;
+    width: 100%;
+    background: url("images/map-blur.png");
+    background-repeat: repeat-y;
+}
+
+#content{
+
+    padding-top: 1px;
+    padding-bottom: 50px;
+}
+
+a.info{
+
+    text-decoration: none;
+    background:linear-gradient(to right,rgba(248, 182, 51, 0.959),rgba(255,255,255,.8));
+    width: 80%;
+    height: 90px;
+    display: block;
+    margin-right: 40%;
+    margin-top: 12px;
+    padding: 1px;
+}
+
+.info img{
+
+    height: 70px;
+    margin: 10px;
+    float: left;
+}
+.info h3{
+
+    text-decoration: none;
+    color: rgb(147, 129, 28);
+    width: 90%;
+    padding: 0;
+    margin-bottom: 0;
+
+}
+
+.info p{
+
+    text-decoration: none;
+    color: black;
+    margin: 0;
+    padding: 0;
+    font-weight: 500;
+    width: 90%;
+}
+
+.info img.right{
+
+    float: right;
+    margin-top: 25px;
+    height: 40px;
+
+}
+
+#full_info{
+
+    background:  rgba(255,255,255,.8);
+    padding: 10px;
+    display: block;
+    margin: auto;
+    width: 90%; 
+    
+}
+
+#full_info img{
+
+    width: 100%;
+    
+}
+
+#full_info h3{
+
+    
+    margin-left: 50%;     
+    
+}
+
+#map-body{
+
+    background: linear-gradient(to bottom,greenyellow, rgb(142, 228, 13));
+}
