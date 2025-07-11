@@ -89,9 +89,9 @@
     
     margin-top: 119px;
     width: 100%;
-    background: url("images/map-blur.png");
-    background-repeat: repeat-y;
-}
+    height: 90%;
+    background: url("images/pexels-sdas-974406.jpg");
+ }
 
 #content{
 
@@ -164,7 +164,10 @@ a.info{
 #full_info h3{
 
     
-    margin-left: 50%;     
+    margin-left: 40%;
+    font-size: larger; 
+    font-weight: 200;
+    color: orange ;  
     
 }
 
