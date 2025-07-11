@@ -84,7 +84,7 @@
  
 
 
-/*****MAIN MAP*********/
+/*****MAIN *********/
 #main {
     
     margin-top: 119px;
@@ -174,4 +174,33 @@ a.info{
 #map-body{
 
     background: linear-gradient(to bottom,greenyellow, rgb(142, 228, 13));
+
+}
+
+img.info-box-weather-icon{
+
+    height:50px;
+    width: 50px;
+}
+
+.info-box-full h3{
+
+    text-align: justify;
+}
+
+h1.info-box-weather-icon{
+     font-size  : 65px;
+     font-weight: 200;
+     padding    : 0;
+     margin     : 0;
+}
+
+table{
+    width: 100%;
+}
+
+td{
+
+    border-top: 1px solid;
+    border-bottom: 1px solid;
 }
